@@ -23,13 +23,13 @@ int main(void)
 					putchar(num1 + '0');
 					putchar(num2 + '0');
 					putchar(num3 + '0');
-					if (num1 < 8)
+					if (num1 < 7)
 					{
 						putchar(',');
 						putchar(' ');
 					}
-					num3++;
 				}
+				num3++;
 			}
 			num2++;
 		}
