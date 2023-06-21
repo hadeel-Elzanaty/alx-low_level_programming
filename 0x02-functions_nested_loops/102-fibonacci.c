@@ -1,7 +1,7 @@
-#include "main.h"
+#include <stdio>
 /**
  * main - Entry point
- * Description: fibom=nanci numbers
+ * Description: fibonacci numbers
  * Return: Always 0(success)
 */
 int main(void)
