@@ -1,4 +1,10 @@
 #include  "main.h"
+
+/*
+ * positive_or_negative - Entry point
+ * @n: diff between negative and positive number
+ * Return: 0 (success)
+*/
 void positive_or_negative(int i)
 {
 	if (i > 0)
