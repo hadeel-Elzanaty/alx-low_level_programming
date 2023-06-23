@@ -5,7 +5,7 @@
  * @n: input
  *
  * Return: Always 0.
- */
+*/
 void print_diagonal(int n)
 {
 	int i, j;

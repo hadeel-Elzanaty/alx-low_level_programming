@@ -1,1 +1,14 @@
-https://intranet.alxswe.com/projects/215#:~:text=%23include%20%22main.h%22%0A%0A/**%0A%20*%20main%20%2D%20check%20the%20code%0A%20*%0A%20*%20Return%3A%20Always%200.%0A%20*/%0Aint%20main(void)%0A%7B%0A%20%20%20%20print_square(2)%3B%0A%20%20%20%20print_square(10)%3B%0A%20%20%20%20print_square(0)%3B%0A%20%20%20%20return%20(0)%3B%0A%7D
+#include "main.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    print_square(2);
+    print_square(10);
+    print_square(0);
+    return (0);
+}
