@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - Entry point
- * @n: input
+ * print_diagonal - draws a diagonal line on the terminal
+ * @n: number of times the character \ should be printed
  *
  * Return: Always 0.
  */
