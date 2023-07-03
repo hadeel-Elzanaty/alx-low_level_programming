@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strchr - Entry point
  * @s: string
@@ -8,12 +7,17 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
+		if (*s == '\0')
+		return (s);
+	while (*s)
 	{
-		if (s[i] == c)
-			return (s + i);
+		if (*s == c)
+		{
+			return (s);
+		}
+	       s++;
 	}
-	return (NULL);
+	if (c == '\0')
+		return (s);
+	return ('\0');
 }
