@@ -15,9 +15,12 @@ int main(int argc, char *argv[])
 
 		for (i = 0; i < 5; i++)
 		{
-			leastcents += money / cents[i];
-			m = (m % cents[i] == 0)
+			leastcents += m / cents[i];
+			m = (m % cents[i] == 0);
+			if (m % cents[i] == 0)
+			{
 				break;
+			}
 		}
 		printf("%d\n", leastcents);
 	}
