@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
 					break;
 				}
 			}
-			printf("%d\n", leastcents);
 		}
+		printf("%d\n", leastcents);
 	}
 	else
 	{
